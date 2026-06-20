@@ -7,9 +7,33 @@
     <link rel="stylesheet" href="main.css">
     <link rel="icon" href="img/flowers.png" type="image/x-icon">
     <title>flowers</title>
+    <style>
+        .pesan-spesial {
+            position: absolute;
+            top: 15%; /* Atur angka ini untuk menaik-turunkan teks */
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            text-align: center;
+            z-index: 100; /* Memastikan teks ada di lapisan paling depan */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
+            width: 100%; /* Agar teks tidak terpotong di HP */
+        }
+        
+        .pesan-spesial h1 {
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+    </style>
 </head>
 <body class="container">
     <div class="night"></div>
+
+        <div class="pesan-spesial">
+            <h1>maaf udh kecewain kamu yaa</h1>
+            <p>aku mau kita selalu bersama</p>
+        </div>
     <div class="flowers">
       <div class="flower flower--1">
         <div class="flower__leafs flower__leafs--1">
